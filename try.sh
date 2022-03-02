@@ -32,7 +32,7 @@ echo -e "\e[1;32m"
 read -p "      Select From Options [1-2 or x]  : "  opt
 echo -e   "\e[0m"
 case $opt in
-1) clear ; wget https://raw.githubusercontent.com/nikstore/Banner/main/banner.sh && chmod +x banner.sh ./banner.sh;;
+1) clear ; wget https://raw.githubusercontent.com/nikstore/BANNER/main/BANNER.sh && chmod +x BANNER.sh ./BANNER.sh;;
 x) exit ;;
 * )echo  "Please enter an correct number";;
 esac

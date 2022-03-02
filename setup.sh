@@ -19,13 +19,13 @@ apt install neofetch
 apt-get --reinstall --fix-missing install -y linux-headers-cloud-amd64 bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git lsof
 echo "clear" >> .profile
 echo "neofetch --ascii_distro SliTaz" >> .profile
-echo "echo -e '\e[35m  Script Premium By \e[32m Harithwyd \e[0m'" >> .profile
+echo "echo -e '\e[35m  Script Premium By \e[32m nik \e[0m'" >> .profile
 
 cd /usr/bin
-wget -O menu "https://raw.githubusercontent.com/nikstore/Banner/main/menu.sh"
-wget -O banner "https://raw.githubusercontent.com/nikstore/Banner/main/banner.sh"
-wget -O menutry "https://raw.githubusercontent.com/nikstore/Banner/main/menutry.sh"
-wget -O colour "https://raw.githubusercontent.com/nikstore/Banner/main/colour.sh"
+wget -O menu "https://raw.githubusercontent.com/nikstore/BANNER/main/menu.sh"
+wget -O banner "https://raw.githubusercontent.com/nikstore/BANNER/main/BANNER.sh"
+wget -O menutry "https://raw.githubusercontent.com/nikstore/BANNER/main/menutry.sh"
+wget -O colour "https://raw.githubusercontent.com/nikstore/BANNER/main/colour.sh"
 chmod +x menu
 chmod +x banner
 chmod +x menutry
